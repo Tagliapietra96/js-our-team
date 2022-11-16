@@ -10,6 +10,11 @@ img{
 
 .card{
     transition: all .7s;
+    opacity: 0;
+}
+
+.card.active{
+    opacity: 1;
 }
 
 .card:hover{

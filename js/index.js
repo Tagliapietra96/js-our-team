@@ -239,3 +239,8 @@ for (let x = 0; x < teamList.length; x++) {
     });
 };
 
+for (let t = 1; t<= 6; t++){
+    setTimeout(function(){
+        el(`.col-4:nth-child(${t}) .card`).classList.add('active');
+    }, (t * 1000));
+}
